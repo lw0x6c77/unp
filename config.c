@@ -7,6 +7,13 @@
 #define CFG_FILE            "./sample.cfg"
 #define MAXLINE             1024
 
+/*
+ # sample.cfg
+ # comment
+ k1    v1
+ k2    v2    # comment
+*/
+
 void split_line(const char *line, ssize_t n)
 {
     int ki = 0;
